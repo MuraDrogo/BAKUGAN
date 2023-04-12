@@ -1,0 +1,61 @@
+*{/* ОБОВЯЗКОВО НА КОЖНОМУ ПРОЕКТІ */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3U83FjzHRYSy9clMmu4bFAvRO7eCkBMjIY5sP5szipeD6wGIJCz1fmZbOm0iv6wvEKk&usqp=CAU);
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* HEADER */
+.header {
+    background-color: #f30707;
+    width: 100%;
+}
+.header-body {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    font-weight: 800;
+}
+.header-menu {
+    display: flex;
+
+}
+.header-menu-link {
+    margin-left: 30px;
+}
+.header-menu-link a{
+    color: #ffd904;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0 0 3px #000;
+    transition: 0.4s;
+}
+.header-menu-link a:hover{
+    text-decoration: overline;
+    color: #619427;
+}
+/* MAIN */
+.video{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 70px auto;
+}
+.video-youtube1{
+    border: 5px solid #0783f7;
+}
+.video-youtube2{
+    border: 5px solid #dd11f8;
+}

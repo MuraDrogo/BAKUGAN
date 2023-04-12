@@ -8,7 +8,9 @@
     text-decoration: none;
 }
 body{
-    background-color: #a53e3e;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtWI8qdph4kxEHlY7g8sVBdBMf-802hfo-iw&usqp=CAU);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* HEADER */

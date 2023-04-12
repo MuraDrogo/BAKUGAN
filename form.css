@@ -25,7 +25,7 @@ body{
     align-items: center;
 }
 .header-logo {
-    
+    font-weight: 800;
 }
 .header-menu {
     display: flex;
@@ -53,15 +53,17 @@ h1{
     text-shadow: 0 0 3px #2c2a2a;
 }
 .box{
-    height: 500px;
+    height: 550px;
     transition: 0.5s;
-    width: 400px;
+    width: 450px;
     margin: 100px auto;
     backdrop-filter: blur(20px);/* туманить фон */
     padding: 40px;
     background-color: #494343;
+    border-radius: 20px;
 }
 .box:hover {
+    
     background-color: rgba(20, 17, 17, 0.185);
 }
 .block {
@@ -88,7 +90,7 @@ h1{
     color: blue;
 }
 .block:nth-child(1):hover{
-    color: chartreuse;
+    color: rgb(89, 165, 12);
 }
 .block:nth-child(2):hover{
     color: rgb(248, 37, 22);
@@ -96,11 +98,43 @@ h1{
 .block:nth-child(3):hover{
     color: rgb(212, 21, 187);
 }
-.gil{
+.file {
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.file-name {
+    margin: 10px 0px;
+}
+.file:hover{
+    color: blueviolet;
+}
+.file-input {
+}
+.checkbox-foto{
     display: flex;
     justify-content: space-between;
-    order: 1;
-    padding: 0px;
+    padding: 20px;
+}
+.checkbox-foto1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.checkbox-input{
+    margin: 20px;
+}
+.checkbox-foto2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gil{
+    
+}
+.gil-input{
+    
 }
 .gil:hover{
     color: aqua;
@@ -108,5 +142,15 @@ h1{
 .button{
     text-align: center;
     padding: 20px;
+}
+.buton{
+    width: 100px;
+    height: 50px;
     border-radius: 10px;
+    background-color: blue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.buton:hover{
+    background-color: #ff0404;
 }
